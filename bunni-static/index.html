@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bunni // secure workspace</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="glow-bg"></div>
+    <div class="container">
+        <header>
+            <h1>bunni<span class="dot">.</span></h1>
+            <p>unrestricted node v3.2</p>
+        </header>
+
+        <div class="search-box">
+            <input type="text" id="urlInput" placeholder="Search web or enter destination URL..." autofocus autocomplete="off">
+            <button id="launchBtn">Launch</button>
+        </div>
+
+        <div class="grid-section">
+            <div class="category-title">Quick Portals</div>
+            <div class="card-grid">
+                <div class="card" onclick="openPortal('https://poki.com')">
+                    <span class="icon">🎮</span>
+                    <div class="info">
+                        <h3>Games</h3>
+                        <p>Unblocked arcade & physics</p>
+                    </div>
+                </div>
+                <div class="card" onclick="openPortal('https://aniwave.to')">
+                    <span class="icon">⚡</span>
+                    <div class="info">
+                        <h3>Anime</h3>
+                        <p>HD streaming & subs</p>
+                    </div>
+                </div>
+                <div class="card" onclick="openPortal('https://fmovies.to')">
+                    <span class="icon">🍿</span>
+                    <div class="info">
+                        <h3>Movies & TV</h3>
+                        <p>Latest releases & shows</p>
+                    </div>
+                </div>
+                <div class="card" onclick="openPortal('https://chatgpt.com')">
+                    <span class="icon">🤖</span>
+                    <div class="info">
+                        <h3>AI Engine</h3>
+                        <p>Unrestricted assistant</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
